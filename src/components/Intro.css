@@ -1,0 +1,9 @@
+/*import overlayMob from '../assets/bg-curvy-mobile.svg'
+import overlayDesk from '../assets/bg-curvy-desktop.svg'*/
+
+.Wavy{
+    background-image: url('../assets/bg-curvy-desktop.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: calc(100% + 50px) 202px;
+}

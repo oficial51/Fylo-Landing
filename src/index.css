@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.translateArrow:hover{
+ .arrow{
+    transform: translateX(8px);
+ }
+}
+
+.introButtonBg{
+    background: linear-gradient(90deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+}
