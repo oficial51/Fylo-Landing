@@ -12,7 +12,7 @@ const StayProductive = ({ size }) => {
           Stay productive, {size.width > 1024 ? <br /> : null} wherever you are
         </h2>
         <p className=" mt-[20px] lg:text-[20px] text-[14px]">
-          Never let location be an issue when accessing
+          Never let location be an issue when accessing &nbsp;
           {size.width < 1024 ? <br /> : null}
           your files. Fylo has you {size.width > 1024 ? <br /> : null} covered
           for all of your file&nbsp;
