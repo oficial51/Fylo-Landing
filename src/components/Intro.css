@@ -2,8 +2,17 @@
 import overlayDesk from '../assets/bg-curvy-desktop.svg'*/
 
 .Wavy{
-    background-image: url('../assets/bg-curvy-desktop.svg');
+    background-image: url('../assets/bg-curvy-mobile.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: calc(100% + 50px) 202px;
+}
+
+@media only screen and (min-width: 1024px)  {.Wavy{
+    background-image: url('../assets/bg-curvy-desktop.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: calc(100%) 202px;
+}
+
 }

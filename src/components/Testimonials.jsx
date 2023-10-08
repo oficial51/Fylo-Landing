@@ -4,10 +4,10 @@ import quotes from '../assets/bg-quotes.png'
 
 const Testimonials = () => {
   return (
-    <div className="flex flex-col pb-[135px] items-center">
-      <div className="relative right-[120px]"> <img src={quotes} className="h-[20px] " alt="quotes" /></div>
+    <div id="team" className="flex lg:flex-row lg:gap-[41px] flex-col lg:justify-center pb-[135px] items-center">
+      <div className="relative lg:left-[93px]  lg:bottom-[120px] right-[120px]"> <img src={quotes} className="h-[20px] lg:h-[49px] " alt="quotes" /></div>
       {CardContent.map((i) => (
-        <div key={i.index}>
+        <div className="z-20" key={i.index}>
           <TestimonialCard
             job={i.job}
             text4={i.text4}
